@@ -1,0 +1,154 @@
+.layout {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid:
+        "creatBlogContainer displayBlogContainer" 1fr / 1fr 1fr;
+    gap: 2px;
+
+}
+
+.creatBlogContainer {
+    grid-area: creatBlogContainer;
+    border-radius: 10px;
+    background: #EDEDED;
+    margin: 3%;
+    padding-left: 8%;
+    text-align: center;
+    align-items: center;
+   
+
+}
+
+.displayBlogContainer {
+    grid-area: displayBlogContainer;
+    border-radius: 10px;
+    border: 3px solid #fc9a37;
+    background: #FFF;
+    margin: 3%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.createTopic {
+    font-family: 'Mali';
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    color: #F37A01;
+    padding-top: 5px;
+    text-align: center;
+}
+
+.displayTopic {
+    font-family: 'Mali';
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    color: 4D4747;
+    padding-top: 5px;
+
+    width: 100%;
+    text-align: center;
+    border-bottom: 3px solid #fc9a37;
+
+}
+
+#topic {
+    width: 100%;
+    height: 50px;
+    border: 3px solid #F37A01;
+    border-radius: 10px;
+    font-size: 25px;
+    font-family: 'IBM Plex Sans Thai', sans-serif;
+    font-weight: 500;
+    padding-left: 5px;
+
+
+
+}
+
+.topicContainer {
+    width: 90%;
+    text-align: right;
+
+}
+
+.contentContainer {
+    width: 90%;
+    height: 70%;
+    text-align: right;
+    
+}
+
+#content {
+    width: 100%;
+    height: 75%;
+    border: 3px solid #F37A01;
+    border-radius: 10px;
+    font-size: 22px;
+    font-family: 'IBM Plex Sans Thai', sans-serif;
+    font-weight: 500;
+    padding-top: 5px;
+    padding-left: 5px;
+    resize: none;
+    
+}
+
+.countChar {
+    margin-bottom: 0;
+    font-family: 'IBM Plex Sans Thai', sans-serif;
+
+}
+
+.displayContentContainer {
+    font-family: 'Mali';
+    overflow-x: hidden;
+    overflow: auto;
+    height: 750px;
+    width: 950px;
+}
+
+.getTopic {
+    /* background-color: aquamarine; */
+    font-size: 30px;
+    font-weight: 700;
+    padding: 10px;
+    margin-top: 5px;
+    color: #F37A01;
+    word-wrap: break-word; 
+
+}
+
+.getContent {
+    /* background-color: aqua; */
+    font-size: 22px;
+    padding: 10px;
+    margin-top: 5px;
+    color: 676767;
+    word-wrap: break-word; 
+}
+
+#submitBtn{
+    font-family: "Mali";
+    margin-top: 5px;
+    font-size: 18px;
+    padding: 8px;
+    background-color: #fc9a37;
+    color: #EDEDED;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+
+}
+
+#submitBtn:hover{
+    background-color: #fdac5b;
+}
+
+.validateInput{
+    margin-top: 0px;
+    font-family: "Mali";
+}
+
